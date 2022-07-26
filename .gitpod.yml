@@ -1,6 +1,6 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: yarn
+  - init: yarn && yarn global add ts-node eslint
   - command: yarn start
 ports:
   - port: 3000
